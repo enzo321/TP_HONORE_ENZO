@@ -11,20 +11,19 @@ int main ()
 	char mordor[40];
 	char comptee [40];
 	
-	printf("voulez vous aller au mordor ?");
-	scanf("%s", mordor );
+	printf("vous voulez alle ou ? mordor ou comptee\n");
+	scanf("%s",comptee,mordor );
+	//scanf("%s", mordor);
 	
-	printf("voulez vous aller a la comptee ?");
-	scanf("%s", comptee );
-	
-	if ( strcmp( mordor, "mordo" ) == 0) {
+	if ( strcmp( mordor, "mordor" ) == 0 ) {
         printf( "vous etes arrive au mordor\n" );
 	}
 	
-	if ( strcmp( comptee, "compt" ) == 0) {
+	if ( strcmp( comptee, "comptee" ) == 0 ) {
         printf( "vous etes arrive dans la comptee\n" );
 	}
-	
+
+
 	/*if (choix == 1){
 		printf("vous allez au mordor");
 	}
